@@ -1,0 +1,16 @@
+#cia {
+    color: darkgreen;
+}
+.sect1 {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    text-align: center
+}
+p {
+    line-height: 25px
+}
+a {
+    text-decoration: none;
+}
+.uppercase {
+    text-transform: uppercase;
+    }

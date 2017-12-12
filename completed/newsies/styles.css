@@ -1,0 +1,87 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    max-width: 75%;
+    margin: 0 auto;
+    font-family: 'News Cycle', sans-serif;
+}
+
+p {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.divider {
+    width: 100%;
+    background-color: black;
+    height: 7px;
+    border-radius: 10px;
+}
+
+h1 {
+    padding: 5px;
+    font-size: 75px;
+    text-decoration: bold;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin: auto;
+}
+
+img {
+    float: left;
+    width: 450px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+#snippet {
+    text-decoration: bold;
+    color: maroon;
+    font-size: 20px;
+    text-align: left;
+    vertical-align: center;
+    position: block;
+    padding-top: 20px;
+    /* margin: top 50px, bottom 20px, left 20px, right 20px; */
+}
+
+.row {
+    margin-top: 25px;
+    padding-bottom: 40px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#columns {
+    column-count: 3;
+    column-width: 33%;
+    
+}
+
+p {
+    margin: 0;
+}
+
+/* I want to center the text 
+vertically next to the image. 
+I want to have my first column,
+first line of text brought up to the top.
+How can I make my columns shorter
+so that I don't have to scroll down? 
+I can make my font size smaller to accomplish.
+I can't get my <b> to work for bold and why do
+I have so much pink in the HTML?*/

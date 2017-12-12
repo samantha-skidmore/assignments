@@ -1,1 +1,1 @@
-This is a collection of all my V School Assignments
+This is my Assignments Folder that contains all of the V School assignments that I am still currently working on that are not complete.

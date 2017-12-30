@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+body {
+    position: relative;
+
+}
+.wrapper {
+    display: grid;
+    height: 3092px;
+    grid-template-rows: 180px 70px 610px 600px 600px 220px 122px 321px 191;
+    grid-template-areas:
+    "hdr"
+    "subhdr"
+    "intro"
+    "part"
+    "req"
+    "ftr"
+    "subftr"
+    "sidebar"
+    "menu"
+}
+header {
+    grid-area: hdr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-img {
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    top: 0;
+    z-index: -1;
+    height: 180px;
+    background-image: url("");
+
+}
+.sub-header {
+    grid-area: subhdr;
+}
+
+.intro {
+    grid-area: intro;
+}
+
+.part {
+    grid-area: part;
+}
+
+.req {
+    grid-area: req;
+}
+
+footer {
+    grid-area: ftr;
+}
+
+.sub-footer {
+    grid-area: subftr;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+menu {
+    grid-area: menu;
+}
+
+@media screen and (min-width: 1130px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr
+        height: 3092px;
+        grid-template-rows: 310px 1070px 818px 860px 320px 176px ;
+        grid-template-areas:
+        "hdr subhdr"
+        "intro sidebar"
+        "part menu"
+        "req ."
+        /* the period above takes up the empty spot */
+        "ftr ftr"
+        "subftr subftr"
+    }   
+}

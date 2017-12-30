@@ -1,21 +1,21 @@
 //PRELIMINARY
 
-// var message = "ben rocks"
+var message = "ben rocks"
 
-// if (5 > 3) {
-//    console.log(message);
-// }
+if (5 > 3) {
+   console.log(message);
+}
 
-// var box = "horse";
-//     if (box.length === 5) {
-//         console.log("I'm a Horse")
-//     }
+var box = "horse";
+    if (box.length === 5) {
+        console.log("I'm a Horse")
+    }
 
-// if ("cat" === "cat") {
-//     console.log("true");
-// } else {
-//     console.log("Not the same");
-// }
+if ("cat" === "cat") {
+    console.log("true");
+} else {
+    console.log("Not the same");
+}
 
 //BRONZE MEDAL
 
@@ -26,11 +26,11 @@ var person = {
     age: 12
   }
 
-// if (person > 18) {
-//     console.log("Congrats...you can go in the movie"); 
-// } else {
-//         console.log("Sorry, no movie for you");
-//     }
+if (person > 18) {
+    console.log("Congrats...you can go in the movie"); 
+} else {
+        console.log("Sorry, no movie for you");
+    }
 
 //#1-1 Worked.  Eric helped.
 
@@ -42,8 +42,8 @@ if (person.name[0] === "B") {
 
 //#1-2 Worked.  Eric helped.
 
-  //   if (person.name[0] === "B" && person.age > 18) {
-  //     console.log("Congrats, you can go in the movie");
-  // } else {
-  //     console.log("Sorry, no movie for you");
-  // }
+    if (person.name[0] === "B" && person.age > 18) {
+      console.log("Congrats, you can go in the movie");
+  } else {
+      console.log("Sorry, no movie for you");
+  }

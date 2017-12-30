@@ -5,13 +5,13 @@ var cheepCheepPrice = 11;
 
 var goombaQty = 12;
 var bobombQty = 8;
-var cheepCheepQty = 5;
+var cheepCheepQty = 5; 
 
 var goombaSubDisplay = document.getElementById("goombaSubtotal");
 var bobombSubDisplay = document.getElementById("bobombSubtotal");
 var cheepSubDisplay = document.getElementById("cheepSubtotal");
 var grandDisplay = document.getElementById("grandTotal");
-
+ 
 function goomba() {
     return goombaPrice * goombaQty;
 }

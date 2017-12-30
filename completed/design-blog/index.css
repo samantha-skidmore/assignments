@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+}
+body {
+    font-family: 'Biryani', sans-serif;
+    font-size: 16px;
+
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+ul li {
+    margin-left:  15%;
+    margin-right: 30%;
+
+}
+.wrapper {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 65% 3% 29% 3%;
+    grid-template-areas: 
+    "hdr"
+    "nav"
+    "blog"
+    "ftr"
+}
+
+.wrapper header {
+    grid-area: hdr;
+    background-image: url("./images/familyFeetInWater.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 3%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.wrapper nav {
+    grid-area: nav;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Architects Daughter', cursive;
+    
+}
+
+.wrapper header h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: bold;
+   
+}
+.wrapper nav a {
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+.wrapper blog {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#blog h2 {
+    margin-left: 3%;
+    margin-right: 3%;
+    text-decoration: underline;
+}
+#blog h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#blog h4 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Biryani', sans-serif;
+font-family: 'Encode Sans Condensed', sans-serif;
+font-family: 'Oregano', cursive; */
+
+/* I can't figure out how to space out our names as I want them each to go to a separate page linked for their own personal blogs.  I'll move mine to my own page at a later date. */

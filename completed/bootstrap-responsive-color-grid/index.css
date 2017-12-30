@@ -1,0 +1,32 @@
+#container {
+    height: 65vh;
+    transform: translateY(10%)
+}
+ 
+.row {
+    height: 100%;
+}
+
+.column {
+    border: 1px solid white;
+}
+
+.boxLightPink {
+    background-color: #F5C6D6;
+}
+
+.boxDarkPink {
+    background-color: #EE2E84;
+}
+
+.boxLightBlue {
+    background-color: #85CFD8;
+}
+
+.boxLightGreen {
+    background-color: #8DC63F;
+}
+
+.boxOrange {
+    background-color: #E76E34; 
+}

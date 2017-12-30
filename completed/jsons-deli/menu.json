@@ -1,0 +1,44 @@
+"appetizers" [ 
+  { "name": "bacon chestnuts",
+    "ingredients": ["bacon", "chestnuts", "Soy Sauce"],
+    "description": "hot and yummy"}
+
+  { "name": "baked brie", 
+     "ingredients": ["filo dough", "brie cheese"],
+     "description": "It's melty cheese...need I say more" }
+     
+  { "name": "feta toast", 
+      "ingredients": ["baguette bread", "sour cream", "feta cheese", "olive oil", "garlic", "basil"],
+      "decription": "Crunchy, Hot and Cold" }
+    ]
+
+    "cold sandwiches" [
+  { "name": "turkey and cheese",
+    "ingredients": ["bacon", "bread", "turkey", "cheese"],
+    "description": "Gobble Gobble"}
+        
+  { "name": "Bologne", 
+    "ingredients": ["Bologne", "Bread"],
+    "description": "I won't eat Bologne" }
+             
+  { "name": "BLT", 
+    "ingredients": ["Bread", "Bacon", "Lettuce", "Tomato"],
+    "decription": "This assignment is making me hungry" }       
+    ]
+
+    "hot sandwiches" [
+  { "name": "turkey and cheese",
+    "ingredients": ["bacon", "bread", "turkey", "cheese"],
+    "description": "Hot Gobble Gobble"}
+              
+  { "name": "Chicken Parmesan", 
+    "ingredients": ["chicken", "bread", "marinara sauce", "cheese"],
+    "description": "Italian" }
+                   
+  { "name": "meatball", 
+    "ingredients": ["bread", "meat", "spaghetti sauce", "cheese"],
+    "decription": "Messy" }       
+    ]
+      
+
+        

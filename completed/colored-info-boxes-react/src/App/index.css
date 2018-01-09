@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    color: "black"; 
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 100px;
+    text-decoration: bold;
+
+}
+h4 { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 50px;
+}

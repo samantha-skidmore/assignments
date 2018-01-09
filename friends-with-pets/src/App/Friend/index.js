@@ -1,11 +1,10 @@
 import React from "react";
 
 import React, { Component } from "react";
-import Content from "./Content";
+import Friend from "./Friend";
     function App(props) {
         return (
             <div></div>
         )
     }
-    export default App;
- 
+    export default Friend;

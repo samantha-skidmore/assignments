@@ -1,0 +1,15 @@
+/* SUPERHERO CSS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.superhero-wrapper {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}

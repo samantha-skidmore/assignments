@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+#all {
+    background-image: url ("http://www.zingerbug.com/Backgrounds/background_images/gray_diagonal_bricks_pattern.gif");
+
+}

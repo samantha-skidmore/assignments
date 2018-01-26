@@ -1,7 +1,7 @@
 //RECEIPTS COMPONENT
 
-import React from 'react'
-import "./main.css"; 
+import React from "react"
+import "./receipts.css"; 
 
 function Receipts(props) {
     return (

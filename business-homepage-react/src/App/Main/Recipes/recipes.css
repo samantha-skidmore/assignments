@@ -1,0 +1,18 @@
+.Recipes {
+    display: flex;
+    flex-wrap: nowrap;
+    align-self: flex-start; 
+    align-content: center;
+    background-image: url("../images/kitchen-cookbook.jpeg");
+    border-color: black;
+    background-size: 112%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    /* text-justify: center; */
+    width: 315px;
+    height: 300px;
+    font-family: 'Architects Daughter', cursive;
+    color: black;
+    font-size: 40px;
+ }

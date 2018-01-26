@@ -5,7 +5,10 @@ import "./footer.css";
 
 function Footer() {
     return (
-        <footer>mypantry.com</footer>
+        <footer>
+            <div>mypantry.com</div>
+            
+            </footer>
     )
 }
 

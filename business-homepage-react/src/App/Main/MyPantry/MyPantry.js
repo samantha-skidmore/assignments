@@ -1,7 +1,7 @@
 //MYPANTRY COMPONENT
 
-import React from 'react'
-import "./main.css"; 
+import React from "react"
+import "./mypantry.css"; 
 
 function MyPantry(props) {
     return (

@@ -1,0 +1,18 @@
+.Receipts {
+    display: flex;
+    flex-wrap: nowrap;
+    align-self: right;
+    align-content: right;
+    background-image: url("../images/receipts1.jpeg");
+    border-color: black;
+    background-size: 160%;
+    background-position: left;
+    background-repeat: no-repeat;
+    align-items: center;
+    /* text-justify: center; */
+    width: 315px;
+    height: 300px;
+    font-family: 'Architects Daughter', cursive;
+    color: black;
+    font-size: 40px;
+}

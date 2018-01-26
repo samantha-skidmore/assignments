@@ -1,7 +1,7 @@
 //RECIPES COMPONENT
 
-import React from 'react'
-import "./main.css"; 
+import React from "react"
+import "./recipes.css"; 
 
 function Recipes(props) {
     return (

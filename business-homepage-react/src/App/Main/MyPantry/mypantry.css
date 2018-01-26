@@ -1,0 +1,18 @@
+.MyPantry {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    background-image: url("../images/pantry4.jpeg");
+    border-color: black;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    /* text-justify: center; */
+    width: 315px;
+    height: 300px;
+    font-family: 'Architects Daughter', cursive;
+    color: black;
+    font-size: 40px;
+    
+}

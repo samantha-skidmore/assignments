@@ -1,1 +1,1 @@
-This is my Assignments Folder containing all of my assignments that I have completed at V School.
+This is my Completed Assignments Folder containing all of my assignments that I have completed at V School.

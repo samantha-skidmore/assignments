@@ -1,1 +1,0 @@
-This is my Projects folder that contains all of my "mini" projects with V School.

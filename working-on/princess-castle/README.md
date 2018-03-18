@@ -1,1 +1,0 @@
-This is my princess in another castle assignment.
